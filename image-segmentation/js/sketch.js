@@ -30,7 +30,7 @@ function setup() {
           pg.pixels[j + 0] = 0;
           pg.pixels[j + 1] = 0;
           pg.pixels[j + 2] = 0;
-          pg.pixels[j + 3] = 220;
+          pg.pixels[j + 3] = 0, 255, 0;
         }
         else { // selfie( results == 0)
           pg.pixels[j + 0] = 0;
